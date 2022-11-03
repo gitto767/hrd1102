@@ -25,7 +25,7 @@ function check(){
 <section>
 <h3>고객 정보 등록 화면</h3>
 <form name="form" method=post action="addcustomerProcess.jsp">
-<table>
+<table class="input">
   <tr>
     <th>고객 아이디</th>
     <td><input type="text" name="custid"></td>
@@ -49,11 +49,11 @@ function check(){
   </tr>
    <tr>
     <th>전 화</th>
-    <td><input type="text" name="phone"></td>
+    <td class="phone"><input type="text" name="hp1">-<input type="text" name="hp2">-<input type="text" name="hp3"></td>
   </tr>
    <tr>
     <th>이메일</th>
-    <td><input type="text" name="email"></td>
+    <td class="email"><input type="text" name="email1">@<input type="text" name="email2"></td>
   </tr>
    <tr>
     <th>거주지</th>

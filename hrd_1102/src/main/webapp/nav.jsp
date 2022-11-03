@@ -11,10 +11,10 @@
   <ul>
     <li><a href="index.jsp">home</a></li>
     <li><a href="addcustomer.jsp">고객정보 등록</a></li>
-    <li><a href="">거주지 등록</a></li>
+    <li><a href="addarea.jsp">거주지 등록</a></li>
     <li><a href="">DM 내역 등록</a></li>
-    <li><a href="">고객 목록</a></li>
-    <li><a href="">거주지 목록</a></li>	
+    <li><a href="customerselect.jsp">고객 목록</a></li>
+    <li><a href="areaselect.jsp">거주지 목록</a></li>	
     <li><a href="">DM 정보 목록</a></li>
   </ul>
   </nav>

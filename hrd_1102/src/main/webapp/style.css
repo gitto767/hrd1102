@@ -48,8 +48,9 @@ section tr{
 section th{
 	width:40%;
 }
-section td{
+section .input td{
 	width:60%;
+	text-align:left;
 }
 section td input{
 	height:30px;
@@ -63,14 +64,34 @@ section td input{
 	width:15px;
 	height:15px;
 }
-	
+.select th,td{
+	width:200px;
+	height:40px;
+}
+.select th{
+    text-align:center;	
+}
+.select td{
+	text-align:left;
+}
+.select2 th,td{
+	width:200px;
+	height:40px;
+	text-align:center;
+}
+.phone input{
+	width:100px;
+}
+.email input{
+	width:150px;
+}	
 	
 	
 
-section .last{
+body section .last{
 	text-align:center;
 }
-section td .buttons{
+section .last .buttons{
 	width:150px;
 	background-color:#888;
 	color:#fff;
